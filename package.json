@@ -1,0 +1,20 @@
+{
+  "name": "capital-public",
+  "homepage": "https://hydroox1d.github.io/capital-public/",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HydroOx1d/capital-public.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HydroOx1d/capital-public/issues"
+  }
+}
