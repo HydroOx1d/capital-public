@@ -1,0 +1,409 @@
+@font-face {
+  font-family: SfProDisplayMedium;
+  font-display: swap;
+  src: url("../fonts/SfProDisplayMedium.woff2") format("woff2"), url("../fonts/SfProDisplayMedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SfProDisplayRegular;
+  font-display: swap;
+  src: url("../fonts/SfProDisplayRegular.woff2") format("woff2"), url("../fonts/SfProDisplayRegular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: SfProDisplayRegular, sans-serif !important;
+}
+
+.sf-pro-medium {
+  font-family: SfProDisplayMedium, sans-serif !important;
+}
+
+.footer {
+  background: #141414;
+}
+
+.footer-logo {
+  color: #FF4343;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+  background: #141414;
+}
+
+.banner-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 76px;
+}
+
+.banner-title-red {
+  color: #FF4343;
+}
+
+.banner-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #A2A2A2;
+  max-width: 405px;
+}
+
+.banner-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+
+.banner-img-wrap {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.banner-btn-icon {
+  border-radius: 0 !important;
+}
+
+.banner-btn {
+  background: #FF4343;
+}
+
+.banner-controllers-btn {
+  background: none;
+  outline: none;
+}
+
+.banner-controllers-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.bankBills-image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.bankBills-image-wrap {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.bankBills-content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.bankBills-item-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  max-width: 400px;
+}
+
+.partners-slide {
+  max-width: 160px;
+}
+
+.partners-img {
+  width: 100%;
+  height: 100%;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.partners-img-big {
+  max-width: 60px;
+  max-height: 80px;
+}
+
+.partners-img-wrap {
+  height: 50px;
+  width: 110px;
+}
+
+.contacts {
+  font-weight: 400;
+  font-size: 34px;
+  color: #141414;
+}
+
+.contacts-borders {
+  border-top: 1px solid #F8F8F8;
+  border-bottom: 1px solid #F8F8F8;
+}
+
+.contacts-item {
+  max-width: 310px;
+  width: 100%;
+  min-height: 146px;
+  border-right: 1px solid #F8F8F8;
+}
+
+.contacts-item:last-child {
+  border-right: none;
+}
+
+.contacts-item-title {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.contacts-item-desc {
+  font-size: 16px;
+  line-height: 19px;
+  color: #141414;
+  max-width: 215px;
+}
+
+.header__logo-span {
+  color: #FF4343;
+}
+
+.header__nav-item {
+  text-decoration: none;
+  color: #141414;
+  cursor: pointer;
+}
+
+.header__nav-item._is-active {
+  color: #FF4343;
+  border-bottom: 1px solid #FF4343;
+}
+
+.ourservices__head {
+  max-width: 350px;
+}
+
+.ourservices__head-text {
+  color: #A1A1A1;
+}
+
+.ourservices__head-text.overflow {
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.ourservices__card:hover .ourservices__arrow {
+  fill: #FF4343;
+}
+
+.ourservices__card:hover .ourservices__card-title {
+  color: #FF4343;
+}
+
+.ourservices__card-avatar {
+  width: 140px;
+  height: 140px;
+}
+
+.ourservices__card-title {
+  -webkit-transition: color 150ms ease-in;
+  -o-transition: color 150ms ease-in;
+  transition: color 150ms ease-in;
+  color: #141414;
+}
+
+.ourservices__card-text {
+  max-width: 350px;
+}
+
+.ourservices__arrow {
+  fill: #141414;
+  -webkit-transition: fill 150ms ease-in;
+  -o-transition: fill 150ms ease-in;
+  transition: fill 150ms ease-in;
+}
+
+.ourservices__all-services {
+  min-height: 300px;
+}
+
+.about-section__bg {
+  background-color: #141414;
+}
+
+.about-section__info {
+  max-width: 610px;
+}
+
+.about-section__counter {
+  min-width: 30px;
+  min-height: 30px;
+  background-color: #FF4343;
+}
+
+.about-section__image {
+  padding-bottom: 54.39%;
+}
+
+.about-section__image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.strategy__title {
+  color: #FF4343;
+}
+
+.strategy__list {
+  color: #a1a1a1;
+}
+
+.strategy__info {
+  max-width: 600px;
+}
+
+.feedback__image {
+  padding: 0px 0px 38.6% 0px;
+}
+
+.feedback__image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.feedback__title {
+  color: #FF4343;
+}
+
+.feedback__form label {
+  color: #A1A1A1;
+}
+
+.feedback__form textarea {
+  resize: none;
+  height: 130px;
+}
+
+.feedback__form button {
+  background: #FF4343;
+}
+
+.requisites {
+  background: #141414;
+}
+
+.requisites-container {
+  max-width: 792px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.requisites-table {
+  width: 760px !important;
+}
+
+.requisites-table-wrap {
+  overflow-x: auto;
+}
+
+.requisites-table th {
+  color: #A2A2A2;
+}
+
+.financing-list {
+  list-style: none;
+  padding: 0;
+}
+
+.financing-list-item {
+  width: 400px;
+  height: 160px;
+  background: #FBFBFB;
+  padding: 20px;
+}
+
+.financing-list-item-wrap {
+  max-width: 290px;
+  margin: 0 auto;
+}
+
+.project__title {
+  font-size: 32px;
+}
+
+.project__image {
+  width: 610px;
+  padding: 0px 0px 55.3% 0px;
+}
+
+@media (min-width: 576px) {
+  .ourservices__all-services {
+    min-height: auto;
+  }
+
+  .project__title {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 767px) {
+  .project__title {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .financing-list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 992px) {
+  .project__image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner-info {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .banner-img-wrap {
+    height: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .bankBills-item-text {
+    max-width: 200px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .project__image {
+    padding: 0 0 90% 0;
+  }
+}
