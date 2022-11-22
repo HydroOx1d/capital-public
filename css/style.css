@@ -39,11 +39,15 @@ body {
 }
 
 .banner-content {
+  width: 100%;
+  background: #141414;
+}
+
+.banner-info {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  width: 100%;
-  background: #141414;
+  margin: 200px 0;
 }
 
 .banner-title {
@@ -157,6 +161,10 @@ body {
   border-bottom: 1px solid #F8F8F8;
 }
 
+.contacts-title {
+  text-align: center;
+}
+
 .contacts-item {
   max-width: 310px;
   width: 100%;
@@ -200,7 +208,7 @@ body {
 }
 
 .ourservices__head-text {
-  color: #A1A1A1;
+  color: #141414;
 }
 
 .ourservices__head-text.overflow {
@@ -221,8 +229,8 @@ body {
 }
 
 .ourservices__card-avatar {
-  width: 140px;
-  height: 140px;
+  width: 80px;
+  height: 80px;
 }
 
 .ourservices__card-title {
@@ -282,29 +290,25 @@ body {
   max-width: 600px;
 }
 
-.feedback__image {
+feedback__image {
   padding: 0px 0px 38.6% 0px;
 }
 
-.feedback__image img {
+feedback__image img {
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.feedback__title {
+feedback__title {
   color: #FF4343;
 }
 
-.feedback__form label {
-  color: #A1A1A1;
-}
-
-.feedback__form textarea {
+feedback__form textarea {
   resize: none;
   height: 130px;
 }
 
-.feedback__form button {
+feedback__form button {
   background: #FF4343;
 }
 
@@ -328,6 +332,10 @@ body {
 
 .requisites-table th {
   color: #A2A2A2;
+}
+
+.financing {
+  margin-bottom: 100px;
 }
 
 .financing-list {
@@ -356,6 +364,18 @@ body {
   padding: 0px 0px 55.3% 0px;
 }
 
+.services__content {
+  max-width: 620px;
+}
+
+.services__sidebar {
+  max-width: 500px;
+}
+
+.services__arrow-back {
+  cursor: pointer;
+}
+
 @media (min-width: 576px) {
   .ourservices__all-services {
     min-height: auto;
@@ -380,19 +400,54 @@ body {
 }
 
 @media (max-width: 992px) {
+  .banner-content {
+    height: 415px;
+  }
+
+  .banner-info {
+    margin: 50px 0;
+  }
+
   .project__image {
     width: 100%;
+  }
+
+  .services__content {
+    max-width: 100%;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    -webkit-transition: all 100ms ease-in;
+    -o-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+  }
+
+  .services__content._is-active {
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+  }
+
+  .services__sidebar {
+    max-width: 100%;
+    opacity: 1;
+    overflow: hidden;
+    -webkit-transition: all 100ms ease-in;
+    -o-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+  }
+
+  .services__sidebar._is-disable {
+    max-width: 0;
+    opacity: 0;
+    overflow: hidden;
   }
 }
 
 @media (max-width: 991px) {
-  .banner-info {
-    max-width: 720px;
-    margin: 0 auto;
-  }
-
   .banner-img-wrap {
-    height: 500px;
+    display: none;
   }
 }
 

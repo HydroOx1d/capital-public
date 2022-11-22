@@ -5,10 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Главная</title>
-  <link rel="stylesheet" href="css/style.min.css?_v=20221118153519">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css?_v=20221118153519" rel="stylesheet"
+  <link rel="stylesheet" href="css/style.min.css?_v=20221122082016">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css?_v=20221122082016" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css?_v=20221118153519">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css?_v=20221122082016">
 </head>
 <body class="vh-100">
   <div class="wrapper d-flex flex-column h-100">
@@ -23,19 +23,19 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link header__nav-item @@activeClassHome" aria-current="page" href="/capital-public/">Home</a>
+            <a class="nav-link header__nav-item @@activeClassHome" aria-current="page" href="/capital-public">Главная</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link header__nav-item _is-active" href="/capital-public/about.html">About</a>
+            <a class="nav-link header__nav-item _is-active" href="/capital-public/about.html">О нас</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link header__nav-item @@activeClassServices" href="/capital-public/services.html">Sevices</a>
+            <a class="nav-link header__nav-item @@activeClassServices" href="/capital-public/services.html?id=1">Услуги</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link header__nav-item @@activeClassFactoring" href="/capital-public/factoring.html">Factoring</a>
+            <a class="nav-link header__nav-item @@activeClassFactoring" href="/capital-public/factoring.html">Факторинг</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link header__nav-item @@activeClassProjects" href="/capital-public/projects.html">Projects</a>
+            <a class="nav-link header__nav-item @@activeClassProjects" href="/capital-public/projects.html">Проекты</a>
           </li>
         </ul>
       </div>
@@ -44,32 +44,36 @@
 </header>
     <main class="main flex-grow-1 flex-shrink-0">
       <section class="banner">
-    <div class="d-flex justify-content-between flex-column flex-lg-row ">
-        <div class="banner-content p-3 d-lg-flex flex-column align-items-center justify-content-center">
-            <div class="banner-info">
-                <p class="banner-text text-light m-0 mb-2">
-                    О компании
-                </p>
-                <h1 class="display-4 mb-3 text-light banner-title">
-                    Финансовая <br> компания <div class="text-light d-inline"><span class="header__logo-span">Asia</span>Capital</div>
-                </h1>
-                <p class="banner-text">
-                    Мы полагаем, что в любой ситуации для наших клиентов мы сможем найти оптимальное решение, основываясь на нашем опыте и текущей конъюнктуре рынка.
-                </p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <a href="#contacts">
-                        <button type="button" class="banner-btn text-light py-2 px-2 border-0">
-                            Задать Вопрос
-                            <svg class="banner-btn-icon ms-1" width="12" height="11" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M11.004 3.414L2.397 12.021L0.983002 10.607L9.589 2H2.004V0H13.004V11H11.004V3.414Z" fill="white"/>
-                                </svg>
-                        </button>
-                    </a>
+    <div class="banner-content">
+        <div class="container">
+            <div class="d-flex flex-column flex-lg-row">
+                <div class="banner-info">
+                    <div>
+                        <p class="banner-text text-light m-0 mb-2">
+                            О компании
+                        </p>
+                        <h1 class="display-4 mb-3 text-light banner-title">
+                            Финансовая <br> компания <div class="text-light d-inline"><span class="header__logo-span">Asia</span>Capital</div>
+                        </h1>
+                        <p class="banner-text text-light">
+                            На специальных условиях при оформлении факторинга
+                        </p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <a href="#contacts">
+                                <button type="button" class="banner-btn text-light py-2 px-2 border-0">
+                                    Задать Вопрос
+                                    <svg class="banner-btn-icon ms-1" width="12" height="11" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.004 3.414L2.397 12.021L0.983002 10.607L9.589 2H2.004V0H13.004V11H11.004V3.414Z" fill="white"/>
+                                        </svg>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-img-wrap">
+                    <picture><source srcset="./img/about/about-us-page.webp" type="image/webp"><img src="./img/about/about-us-page.jpg" class="banner-img" alt="Bootstrap Themes" width="100%" height="820" loading="lazy"></picture>
                 </div>
             </div>
-        </div>
-        <div class="banner-img-wrap">
-          <picture><source srcset="./img/about/about-us-page.webp" type="image/webp"><img src="./img/about/about-us-page.jpg" class="banner-img" alt="Bootstrap Themes" width="100%" height="820" loading="lazy"></picture>
         </div>
     </div>
   </section>
@@ -82,36 +86,36 @@
             <table class="table requisites-table mt-4">
                 <tbody>
                     <tr class="border-0">
-                      <th class="ps-0 border-0">Полное наименование:</th>
+                      <th class="ps-0 border-0 text-light">Полное наименование:</th>
                       <td class="border-0 text-light" style="width: 415px;">Общество с ограниченной ответственностью AsiaCapital</td>
                     </tr>
                     <tr class="border-0">
-                        <th class="ps-0 border-0">Сокращенное наименование:</th>
+                        <th class="ps-0 border-0 text-light">Сокращенное наименование:</th>
                         <td class="border-0 text-light" style="width: 415px;">ООО  AsiaCapital</td>
                       </tr>
                     <tr class="border-0">
-                      <th class="ps-0 border-0">ИНН/КПП</th>
+                      <th class="ps-0 border-0 text-light">ИНН/КПП</th>
                       <td class="border-0 text-light" style="width: 415px;">7702378727 / 772601001</td>
                     </tr>
                     <tr class="border-0">
-                      <th class="ps-0 border-0">Юридический адрес:</th>
+                      <th class="ps-0 border-0 text-light">Юридический адрес:</th>
                       <td class="border-0 text-light" style="width: 415px;"" colspan="2">129110, г. Москва, ш. Варшавское, дом 132, стр.9, эт.3, пом. XVIII Ком. 170</td>
                     </tr>
     
                     <tr class="border-0">
-                      <th class="ps-0 border-0">Физический адрес:</th>
+                      <th class="ps-0 border-0 text-light">Физический адрес:</th>
                       <td class="border-0 text-light" style="width: 415px;"" colspan="2">129110, г. Москва, ш. Варшавское, дом 132, стр.9, эт.3, пом. XVIII Ком. 170</td>
                     </tr>
                     <tr class="border-0">
-                      <th class="ps-0 border-0">Телефон, факс:</th>
+                      <th class="ps-0 border-0 text-light">Телефон, факс:</th>
                       <td class="border-0 text-light" style="width: 415px;"" colspan="2">+7(495)755-24-52</td>
                     </tr>
                     <tr class="border-0">
-                      <th class="ps-0 border-0">Электронная почта:</th>
+                      <th class="ps-0 border-0 text-light">Электронная почта:</th>
                       <td class="border-0 text-light" style="width: 415px;"" colspan="2">info@asiacapital.com</td>
                     </tr>
                     <tr class="border-0">
-                      <th class="ps-0 border-0">Банковские реквизиты:</th>
+                      <th class="ps-0 border-0 text-light">Банковские реквизиты:</th>
                       <td class="border-0 text-light" style="width: 415px;"" colspan="2">БИК 044525225 Наименование банка: ПАО Сбербанк Корреспондентский счет: 30101810400000000225 Расчетный счет, РУБЛИ: 40701810838000003332
                     </td>
                     </tr>
@@ -198,26 +202,26 @@
       <section class="feedback py-5">
   <div class="container">
     <div class="d-flex align-items-start">
-      <div class="w-100 h-100 position-relative feedback__image me-4 d-none d-xxl-block">
+      <div class="w-100 h-100 position-relative feedback__image me-4 d-none d-xxl-block" style="padding: 0px 0px 38.6% 0px;">
         <picture><source srcset="./img/feedback/feedback-bg.webp" type="image/webp"><img src="./img/feedback/feedback-bg.jpg" alt="women" class="position-absolute w-100 h-100 top-0 start-0"></picture>
       </div>
       <div class="d-flex flex-column feedback__info w-100 w-xxl-50">
         <div class="fs-2 feedback__title mb-2">Задать вопрос</div>
-        <div class="ourservices__head-text mb-4">Менеджеры компании с радостью ответят на ваши вопросы и произведут расчет стоимости услуг и подготовят индивидуальное коммерческое предложение.</div>
+        <div class="ourservices__head-text mb-4 text-black" style="max-width: 430px;">Менеджеры компании с радостью ответят на ваши вопросы и произведут расчет стоимости услуг и подготовят индивидуальное коммерческое предложение.</div>
         <form action="#" class="feedback__form">
           <div class="d-flex flex-column mb-2">
-            <label for="name" class="fs-6 mb-1">Ваше имя</label>
-            <input type="text" id="name" name="name" placeholder="Имя" class="bg-light border-0 w-100 w-xl-50 py-2 ps-2">
+            <label for="name" class="fs-6 mb-1 text-black">Ваше имя</label>
+            <input type="text" id="name" name="name" placeholder="Имя" class="bg-light border-0 w-100 w-xl-50 py-2 ps-2" style="outline: none; max-width: 350px;">
           </div>
           <div class="d-flex flex-column mb-2">
-            <label for="name">Ваш E-mail</label>
-            <input type="text" id="name" name="name" placeholder="example@example.example" class="bg-light border-0 w-100 w-xl-50 py-2 ps-2">
+            <label for="name text-black">Ваш E-mail</label>
+            <input type="text" id="name" name="name" placeholder="example@example.example" class="bg-light border-0 w-100 w-xl-50 py-2 ps-2"  style="outline: none; max-width: 350px;">
           </div>
           <div class="d-flex flex-column mb-4">
-            <label for="name">Коментарий</label>
-            <textarea name="message" id="message" placeholder="Сообщение..." class="bg-light border-0 w-100 w-xl-50 ps-2"></textarea>
+            <label for="name text-black">Коментарий</label>
+            <textarea name="message" id="message" placeholder="Сообщение..." class="bg-light border-0 w-100 w-xl-50 ps-2" style="outline: none; max-width: 350px;"></textarea>
           </div>
-          <button type="submit" class="py-2 px-5 text-white border-0 ">Отправить<img src="./img/feedback/arrow-top-right.svg" alt="arrow_top_right"></button>
+          <button type="submit" class="py-2 px-5 text-white border-0" style="background-color: #FF4343;">Отправить<img src="./img/feedback/arrow-top-right.svg" alt="arrow_top_right"></button>
         </form>
       </div>
     </div>
@@ -228,7 +232,7 @@
     <div class="container">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5">
             <div class="col mb-3 d-flex flex-column justify-content-between">
-              <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+              <a href="/capital-public" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
                 <img src="./img/logo.svg" alt="" srcset="">
               </a>
               <p class="text-light mb-0">© 2022 Все права защищены.</p>
@@ -241,31 +245,31 @@
             <div class="col mb-3">
               <h5 class="text-light">Главная</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">О нас</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Услуги</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Факторинг</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Проекты</a></li>
+                <li class="nav-item mb-2"><a href="/capital-public/about.html" class="nav-link p-0 text-light">О нас</a></li>
+                <li class="nav-item mb-2"><a href="/capital-public/services.html" class="nav-link p-0 text-light">Услуги</a></li>
+                <li class="nav-item mb-2"><a href="/capital-public/factoring.html" class="nav-link p-0 text-light">Факторинг</a></li>
+                <li class="nav-item mb-2"><a href="/capital-public/projects.html" class="nav-link p-0 text-light">Проекты</a></li>
               </ul>
             </div>
         
             <div class="col mb-3">
               <h5 class="text-light">Компания</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">О компании</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Документы и реквизиты</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Новости</a></li>
+                <li class="nav-item mb-2"><a href="/capital-public/about.html" class="nav-link p-0 text-light">О компании</a></li>
+                <li class="nav-item mb-2"><a href="/capital-public/about.html" class="nav-link p-0 text-light">Документы и реквизиты</a></li>
               </ul>
             </div>
         
             <div class="col mb-3">
               <h5 class="text-light">Услуги</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Продажа вашего бизнеса</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Привлечение капитала</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Слияние и поглощение</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Частным субъектам</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Корпоративным лицам</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Операции с векселями</a></li>
+                <li class="nav-item mb-2"><a href="/capital-public/services.html?id=1" class="nav-link p-0 text-light">Продажа вашего бизнеса</a></li>
+                <li class="nav-item mb-2"><a href="/capital-public/services.html?id=2" class="nav-link p-0 text-light">Привлечение капитала</a></li>
+                <li class="nav-item mb-2"><a href="/capital-public/services.html?id=3" class="nav-link p-0 text-light">Слияние и поглощение</a></li>
+                <li class="nav-item mb-2"><a href="/capital-public/services.html?id=4" class="nav-link p-0 text-light">Частным субъектам</a></li>
+                <li class="nav-item mb-2"><a href="/capital-public/services.html?id=5" class="nav-link p-0 text-light">Корпоративным лицам</a></li>
+                <li class="nav-item mb-2"><a href="/capital-public/services.html?id=6" class="nav-link p-0 text-light">Операции с векселями</a></li>
+                <li class="nav-item mb-2"><a href="/capital-public/services.html?id=7" class="nav-link p-0 text-light">Операции с драг. металлами</a></li>
               </ul>
             </div>
         </div>
@@ -274,9 +278,9 @@
   </div>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js?_v=20221118153519"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js?_v=20221122082016"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js?_v=20221118153519"></script>
-  <script src="js/app.min.js?_v=20221118153519"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js?_v=20221122082016"></script>
+  <script src="js/app.min.js?_v=20221122082016"></script>
 </body>
 </html>
