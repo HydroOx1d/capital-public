@@ -392,6 +392,12 @@ feedback__form button {
   }
 }
 
+@media (max-width: 1402px) {
+  .contacts-item:last-child {
+    border-right: 1px solid #F8F8F8;
+  }
+}
+
 @media (max-width: 1200px) {
   .financing-list {
     -ms-flex-wrap: wrap;
@@ -448,6 +454,16 @@ feedback__form button {
 @media (max-width: 991px) {
   .banner-img-wrap {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .contacts-item {
+    border-right: none;
+  }
+
+  .contacts-item:last-child {
+    border-right: none;
   }
 }
 
